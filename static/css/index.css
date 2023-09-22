@@ -1,0 +1,103 @@
+* { 
+    margin: 0;
+    padding: 0;
+}
+
+
+.header-nav{
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav {
+    margin-right: 5%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+}
+
+.first-container {
+    height: 700px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: #AAAAAA;
+}
+
+.btn-circle-3d-dent_1 {
+    display: inline-block;
+    text-decoration: none;
+    background: #5dc3d0;
+    color: rgb(82, 142, 150);
+    width: 160px;
+    font-size: 20px;
+    height: 160px;
+    line-height: 160px;
+    border-radius: 50%;
+    text-align: center;
+    overflow: hidden;
+    box-shadow: inset 0px 3px 0 rgba(255,255,255,0.3), 0 3px 3px rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+    border-bottom: solid 3px #549fa9;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.65);
+    transition: .4s;
+}
+
+.btn-circle-3d-dent_2 {
+    display: inline-block;
+    text-decoration: none;
+    background: #5dc3d0;
+    color: rgb(82, 142, 150);
+    width: 160px;
+    font-size: 20px;
+    height: 160px;
+    line-height: 160px;
+    border-radius: 50%;
+    text-align: center;
+    overflow: hidden;
+    box-shadow: inset 0px 3px 0 rgba(255,255,255,0.3), 0 3px 3px rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+    border-bottom: solid 3px #549fa9;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.65);
+    transition: .4s;
+}
+
+.btn-circle-3d-dent_1:active {
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.35);
+    border-bottom: none;
+}
+
+.btn-circle-3d-dent_2:active {
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.35);
+    border-bottom: none;
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 50px;
+    background-color: black;
+    font-size: 15px;
+    color: #fff;
+}

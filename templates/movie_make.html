@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>動画作成</title>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='css/movie_make.css')}}">
+</head>
+
+
+<body>
+    <header class="header-nav">
+        <nav><a href="/">toppage</a></nav>
+    </header>
+
+
+    <form action="/download" method="post" enctype="multipart/form-data">
+        <section class="first-container">
+            <div class="input_name">
+
+                <div class="FW">
+                    
+                    <select name="FW1" class="FW1">
+                        <option value="">FW</option>
+                        <option value="yamakawa">山川</option>
+                        <option value="nakayama">中山</option>
+                        <option value=""></option>  
+                        <option value=""></option>  
+                        <option value=""></option>                         
+                        
+                    </select>
+                    
+
+                    
+                    <select name="FW2" class="FW2">
+                        <option value="">FW</option>
+                        <option value="yamakawa">山川</option>
+                        <option value="nakayama">中山</option>
+                        <option value=""></option>  
+                        <option value=""></option>  
+                        <option value=""></option>   
+                    </select>
+                    
+                </div>
+                
+                <div class="MF">
+                    
+                    <select name="LMF" class="LMF">
+                        <option value="">LMF</option>
+                        <option value="koyama">小山</option>
+                        <option value="amano">天野</option>
+                        <option value="hatanaka">畑中</option>                            
+                        <option value="mano">間野</option>
+                        <option value="kobayasi">小林</option>
+                        <option value="isihara">石原</option>
+                        <option value="enndou">遠藤</option>
+                        <option value="nakayama">中山</option>                            
+                        
+                    </select>
+                    
+
+                    
+                    <select name="CMF1" class="CMF1">
+                        <option value="">CMF</option>
+                        <option value="koyama">小山</option>
+                        <option value="amano">天野</option>
+                        <option value="hatanaka">畑中</option>                            
+                        <option value="mano">間野</option>
+                        <option value="kobayasi">小林</option>
+                        <option value="isihara">石原</option>
+                        <option value="enndou">遠藤</option>
+                        <option value="nakayama">中山</option>                            
+                        
+                    </select>
+                    
+
+                    
+                    <select name="CMF2" class="CMF2">
+                        <option value="">CMF</option>
+                        <option value="koyama">小山</option>
+                        <option value="amano">天野</option>
+                        <option value="hatanaka">畑中</option>                            
+                        <option value="mano">間野</option>
+                        <option value="kobayasi">小林</option>
+                        <option value="isihara">石原</option>
+                        <option value="enndou">遠藤</option>
+                        <option value="nakayama">中山</option>                            
+                        
+                    </select>
+                    
+
+                    
+                    <select name="RMF" class="RMF">
+                        <option value="">RMF</option>
+                        <option value="koyama">小山</option>
+                        <option value="amano">天野</option>
+                        <option value="hatanaka">畑中</option>                            
+                        <option value="mano">間野</option>
+                        <option value="kobayasi">小林</option>
+                        <option value="isihara">石原</option>
+                        <option value="enndou">遠藤</option>
+                        <option value="nakayama">中山</option>                            
+                        
+                    </select>
+                    
+                </div>
+
+                <div class="DF">
+                    
+                    <select name="LSB" class="LSB">
+                        <option value="">LSB</option>
+                        <option value="koshoji">小障子</option>
+                        <option value="satou">佐藤</option>
+                        <option value="nagafuzi">永藤</option>                            
+                        
+                    </select>
+                    
+
+                    
+                    <select name="CB1" class="CB1">
+                        <option value="">CB</option>
+                        <option value="sugawara">菅原</option>
+                        <option value="kawamoto">河本</option>
+                        <option value="yamaguti">山口</option>                            
+                        
+                    </select>
+                    
+
+                    
+                    <select name="CB2" class="CB2">
+                        <option value="">CB</option>
+                        <option value="sugawara">菅原</option>
+                        <option value="kawamoto">河本</option>
+                        <option value="yamaguti">山口</option>                            
+                        
+                    </select>
+                    
+
+                    
+                    <select name="RSB" class="RSB">
+                        <option value="">RSB</option>
+                        <option value="koshoji">小障子</option>
+                        <option value="satou">佐藤</option>
+                        <option value="nagafuzi">永藤</option>                                 
+                        
+                    </select>
+                    
+                </div>
+
+                <div class="GK">
+                    
+                    <select name="GK" class="GK">
+                        <option value="">GK</option>
+                        <option value="watanabe">渡邊</option>                     
+                        
+                    </select>
+                    
+
+                </div>
+                
+            </div>
+            
+            
+            <input  type = "submit" value="動画の作成" class="btn-circle-3d-dent_1">
+        
+        </section>  
+    </form>
+
+    
+    <footer>
+        <small>&copy;2023 Keisuke</small>
+        <a href="/download">downloadpage</a>
+    </footer>
+    
+</body>
+</html>
